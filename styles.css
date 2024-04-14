@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif; /* Mudança da fonte para Arial */
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #333;
+    text-align: center;
+}
+
+.title {
+    color: orange;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-group .half-width {
+    width: 48%;
+}
+
+.input-group label {
+    display: block;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #666;
+    color: white;
+    font-family: Arial, sans-serif; /* Mudança da fonte para Arial */
+}
+
+.input-group textarea {
+    height: 100px;
+}
+
+.description {
+    font-size: 12px;
+    color: white;
+    margin-top: 5px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Arial, sans-serif; /* Mudança da fonte para Arial */
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+.gallery {
+    margin-top: 20px;
+    display: flex;
+}
+
+.photo {
+    flex: 1;
+    position: relative;
+    margin-right: 5px;
+}
+
+.photo:last-child {
+    margin-right: 0;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo .name {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
